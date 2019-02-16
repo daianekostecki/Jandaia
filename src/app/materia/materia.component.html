@@ -1,0 +1,32 @@
+<div class="row col s12">
+  <div class="">
+    <nav class="cor-nav">
+      <div class="nav-wrapper" style="width: 750px">
+        <ul class="left">
+          <li><a (click)="voltar()"><i class="material-icons">arrow_back</i></a></li>
+        </ul>
+        <a class="brand-logo" style="padding-left: 0px"><i class="material-icons">create</i>Caderno Digital</a>
+        <ul class="right">
+          <li><a><i class="material-icons">more_vert</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<form [formGroup]="formulario">
+  <div class="row">
+    <div class="input-field col s6">
+      <i class="material-icons prefix" style="font-size: 3em !important">calendar_today</i>
+      <input id="icon_prefix" formControlName="Data" type="text" class="validate" style="height: 60px; font-size: 2.5em;
+      padding-left: 5px;">
+      <!-- <label for="icon_prefix"><span style="font-size: 2em !important; padding-left: 15px;">Data</span></label> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <textarea formControlName="DescMateria" id="textarea1" class="materialize-textarea"
+        style="height: 1000px; font-size: 2em;"></textarea>
+    </div>
+  </div>
+</form>

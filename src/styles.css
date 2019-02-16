@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+.header {
+    background-color: #87CEFA !important;
+}
+
+.cor-nav{
+    background: #6E7B8B !important;
+}
+
+a.brand-logo {
+    padding-left: 50px;
+}
+
+.login {
+    padding: 2px 50px 2px 50px;
+}
+
+.universo {
+    height: 1024px;
+    width: 768px;
+}
+
+.no-padding {
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.btn-home{
+    height: 1024px !important;
+    width: 768px !important;
+    background-color: #ccc; 
+    background: transparent;
+}
+
+a.waves-effect.waves-light.btn-large {
+    height: 150px !important;
+    width: 220px !important;
+    border-radius: 20px;
+    background: #00BFFF;
+}
+
+.btn-letra {
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif
+}
+
+.btn-large i{
+    left: 40%;
+    font-size: 3rem;
+    position: absolute;
+    top: 45%;
+}
+
+/* .input-field .prefix.active {
+    color: #00BFFF !important;
+} */
+
+.input-field.col.s6 {
+    padding: 5px 20px 5px 20px;
+}
+
