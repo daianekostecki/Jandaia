@@ -14,7 +14,6 @@ export class CadernoHomeComponent implements OnInit {
   }
 
   buscarMateria(materia) {
-    console.log(materia);
     this.route.navigate(['materia', materia]);
   }
 
